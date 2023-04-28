@@ -1,0 +1,70 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-upfuelatest-dev-134054-authRole",
+      "UnauthRoleArn": "arn:aws:iam::326961190593:role/amplify-upfuelatest-dev-134054-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::326961190593:role/amplify-upfuelatest-dev-134054-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-upfuelatest-dev-134054-deployment",
+      "UnauthRoleName": "amplify-upfuelatest-dev-134054-unauthRole",
+      "StackName": "amplify-upfuelatest-dev-134054",
+      "StackId": "arn:aws:cloudformation:us-east-1:326961190593:stack/amplify-upfuelatest-dev-134054/40d7e5f0-e587-11ed-b44f-12261142f7ed",
+      "AmplifyAppId": "d2y615qfiix3m6"
+    }
+  },
+  "auth": {
+    "upfuelatest8d0dd3a3": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-upfuelatest-dev-134054-deployment/amplify-cfn-templates/auth/upfuelatest8d0dd3a3-cloudformation-template.json",
+        "logicalId": "authupfuelatest8d0dd3a3"
+      },
+      "lastPushTimeStamp": "2023-04-28T05:46:27.245Z",
+      "output": {
+        "UserPoolId": "us-east-1_8rjxXLLwO",
+        "AppClientIDWeb": "63c9980r29etl5agtdkk3sfrqs",
+        "AppClientID": "2ucrduirpfpdtdbdn02rmml4sq",
+        "IdentityPoolId": "us-east-1:bd10a914-8a82-478c-bb35-a82feedd43e4",
+        "UserPoolArn": "arn:aws:cognito-idp:us-east-1:326961190593:userpool/us-east-1_8rjxXLLwO",
+        "IdentityPoolName": "upfuelatest8d0dd3a3_identitypool_8d0dd3a3__dev",
+        "UserPoolName": "upfuelatest8d0dd3a3_userpool_8d0dd3a3"
+      },
+      "lastPushDirHash": "Dk7YbVO1fp7AXAeccyLGLcqL4ko="
+    }
+  },
+  "hosting": {
+    "amplifyhosting": {
+      "service": "amplifyhosting",
+      "providerPlugin": "awscloudformation",
+      "type": "manual",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-upfuelatest-dev-134054-deployment/amplify-cfn-templates/hosting/amplifyhosting-template.json",
+        "logicalId": "hostingamplifyhosting"
+      },
+      "lastPushTimeStamp": "2023-04-28T05:46:27.245Z",
+      "output": {},
+      "lastPushDirHash": "dwIeN06+8cHWMrD6ZFPIW8ZSlwM="
+    }
+  }
+}
